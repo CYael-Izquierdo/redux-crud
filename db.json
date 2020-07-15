@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "name": "AK-47 Assimov",
+      "price": "1",
+      "id": 7
+    },
+    {
+      "name": "Carlos Yael Izquierdo Delannoy123",
+      "price": 23,
+      "id": 8
+    },
+    {
+      "name": "Carlos Yael Izquierdo Delannoy",
+      "price": 23,
+      "id": 9
+    },
+    {
+      "name": "Carlos Yael Izquierdo Delannoy",
+      "price": 2,
+      "id": 10
+    },
+    {
+      "name": "das",
+      "price": 42,
+      "id": 11
+    },
+    {
+      "name": "ds",
+      "price": 223,
+      "id": 12
+    },
+    {
+      "name": "Yael",
+      "price": 23,
+      "id": 13
+    },
+    {
+      "name": "hola",
+      "price": 43,
+      "id": 14
+    },
+    {
+      "name": "qwerty",
+      "price": 23,
+      "id": 15
+    },
+    {
+      "name": "asdfgh",
+      "price": 43,
+      "id": 16
+    },
+    {
+      "name": "hola",
+      "price": 23,
+      "id": 17
+    },
+    {
+      "name": "hola",
+      "price": 231,
+      "id": 18
+    },
+    {
+      "name": "32",
+      "price": 41,
+      "id": 19
+    },
+    {
+      "name": "hola",
+      "price": 321,
+      "id": 21
+    },
+    {
+      "name": "G2 EL ECONOMISTA",
+      "price": 23,
+      "id": 22
+    }
+  ]
+}
