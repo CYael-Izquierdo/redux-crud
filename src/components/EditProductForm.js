@@ -23,7 +23,7 @@ const EditProductForm = props => {
     useEffect(() => {
         axiosClient.get(`/products/${props.match.params.id}`)
             .then(response => setProduct(response.data));
-    }, []);
+    }, [props.match.params.id]);
 
     const handleFieldChange = e => {
         setProduct({

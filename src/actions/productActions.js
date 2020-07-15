@@ -129,7 +129,7 @@ const deleteProductPending = id => ({
 });
 
 const deleteProductSuccess = () => ({
-   type: DELETE_PRODUCT_SUCCESS
+    type: DELETE_PRODUCT_SUCCESS
 });
 
 const deleteProductError = () => ({
@@ -138,30 +138,30 @@ const deleteProductError = () => ({
 });
 
 export const getProductPending = () => ({
-   type: GET_PRODUCT_PENDING
+    type: GET_PRODUCT_PENDING
 });
 
 export const getProductSuccess = product => ({
-   type: GET_PRODUCT_SUCCESS,
+    type: GET_PRODUCT_SUCCESS,
     payload: product
 });
 
 export const getProductError = product => ({
-   type: GET_PRODUCT_ERROR,
+    type: GET_PRODUCT_ERROR,
     payload: true
 });
 
 // Edit product from api
 export const editProductAction = product => {
     return async dispatch => {
-      dispatch(editProductPending(product));
+        dispatch(editProductPending(product));
 
-      try {
-          const result = await axiosClient.put(`/products/${product.id}`, product);
-
-      } catch (e) {
-          console.log(e);
-      }
+        try {
+            await axiosClient.put(`/products/${product.id}`, product);
+            dispatch(editProductSuccess(product));
+        } catch (e) {
+            console.log(e);
+        }
     };
 }
 

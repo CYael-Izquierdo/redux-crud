@@ -13,8 +13,9 @@ const Products = () => {
     useEffect(() => {
         // Call api
         const loadProducts = () => dispatch(getProductsAction());
-
         loadProducts();
+
+        // eslint-disable-next-line
     }, []);
 
     return (
